@@ -54,7 +54,7 @@ btn3.addEventListener('click', () => {
 });
 btn4.addEventListener('click', () => {
     window.scrollTo(0, 0);
-    graph.src = "pexels-mohsan-ali-mirza-2377893.jpg";
+    graph.src = "../pexels-mohsan-ali-mirza-2377893.jpg";
     content.innerText = "KTM";
     details.innerText = "KTM AG (Kraftfahrzeug Trunkenpolz Mattighofen, formerly KTM Sportmotorcycle AG[4][5]) is an Austrian motorcycle, bicycle and sports car manufacturer owned by Pierer Mobility AG & Indian manufacturer Bajaj Auto International Holdings BV. It was formed in 1992 but traces its foundation to as early as 1934. Today, KTM AG is the parent company of the KTM Group, consisting of a number of motorcycle brands.";
 });
