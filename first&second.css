@@ -26,6 +26,17 @@ body {
 .navbox img{
   position: absolute;
   top: 8px;
+  animation: animate 1s linear;
+}
+@keyframes animate {
+  0%{
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 .bg{
     background-color: white;
