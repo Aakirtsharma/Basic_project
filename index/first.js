@@ -7,7 +7,6 @@ let btn5 = document.querySelector("#btn5");
 let btn6 = document.querySelector("#btn6");
 let btn7 = document.querySelector("#btn7");
 let btn8 = document.querySelector("#btn8");
-let btn9 = document.querySelector("#btn9");
 let graph = document.querySelector("#ProductImg");
 let content = document.querySelector("h1");
 let details = document.querySelector("p");
@@ -82,8 +81,4 @@ btn8.addEventListener('click', () => {
     graph.src = "https://images.pexels.com/photos/350343/pexels-photo-350343.jpeg?auto=compress&cs=tinysrgb&w=600";
     content.innerText = "Sandwich";
     details.innerText = "A sandwich is a food typically consisting of vegetables, sliced cheese or meat, placed on or between slices of bread, or more generally any dish wherein bread serves as a container or wrapper for another food type.[1][2][3] The sandwich began as a portable, convenient finger food in the Western world, though over time it has become prevalent worldwide.\n\nIn the 21st century there has been considerable debate over the precise definition of sandwich; and specifically whether a hot dog or open sandwich can be categorized as such. In the United States, the Department of Agriculture and the Food and Drug Administration are the responsible agencies. The USDA uses the definition, (at least 35% cooked meat and no more than 50% bread) for closed sandwiches, and (at least 50% cooked meat) for open sandwiches.[4] In Britain, the British Sandwich Association defines a sandwich as (any form of bread with a filling, generally assembled cold), a definition which includes wraps and bagels, but excludes dishes assembled and served hot, such as burgers.[5]";
-});
-// on click scroll in y axis top-bottom & bottom to top
-btn9.addEventListener('click',()=>{
-    window.scrollTo(0,2000);
 });
